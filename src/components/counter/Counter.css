@@ -1,0 +1,19 @@
+.Counter {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    border: 1px solid green;
+}
+
+.Counter span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Counter button {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 40px;
+    min-width: 50px;
+}
