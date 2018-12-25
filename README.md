@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/luddwichr/react-playground.svg?branch=master)](https://travis-ci.org/luddwichr/react-playground)
+[![codecov](https://codecov.io/gh/luddwichr/react-playground/branch/master/graph/badge.svg)](https://codecov.io/gh/luddwichr/react-playground)
+
+
+
 This project provides a scaffold for using the following technologies together:
 - [Yarn](https://yarnpkg.com/lang/en/), for "Fast, reliable, and secure dependency management"
 - [Parcel](https://parceljs.org/), a "Blazing fast, zero configuration web application bundler"
