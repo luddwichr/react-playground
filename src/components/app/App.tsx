@@ -7,6 +7,7 @@ import {
 } from '../basics/basics';
 import Counter from '../counter/Counter';
 import ReduxCounter from '../reduxCounter/ReduxCounter';
+import WebRequestDemo from '../webRequest/WebRequestDemo';
 
 class App extends Component {
   render() {
@@ -17,7 +18,8 @@ class App extends Component {
         <MyStatefulClassComponent/>
         <MyComposingComponent/>
         <Counter/>
-        <ReduxCounter />
+        <ReduxCounter/>
+        <WebRequestDemo/>
       </div>
     );
   }
