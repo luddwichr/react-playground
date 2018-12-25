@@ -15,13 +15,13 @@ describe('Counter', () => {
 
   it('should display a count of 0 after clicking "+" button', () => {
     const counter = shallow(<Counter/>);
-    counter.find('#increase').simulate('click');
+    counter.find('#increment').simulate('click');
     expect(counter.find('#count').text()).toEqual('1');
   });
 
   it('should display a count of -1 after clicking "-" button', () => {
     const counter = shallow(<Counter/>);
-    counter.find('#decrease').simulate('click');
+    counter.find('#decrement').simulate('click');
     expect(counter.find('#count').text()).toEqual('-1');
   });
 

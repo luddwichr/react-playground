@@ -20,6 +20,16 @@ See the following resources for more details:
 - [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
 - [Barrel files](https://github.com/basarat/typescript-book/blob/master/docs/tips/barrel.md)
 - [Barrel file pattern discussion](https://medium.com/@adrianfaciu/barrel-files-to-use-or-not-to-use-75521cd18e65)
-
-Things to check out soon:
+- [Defining defaultProps troubles in Typescript](https://medium.com/@martin_hotell/react-typescript-and-defaultprops-dilemma-ca7f81c661c7)
+  (I could not yet figure out an optimal solution, although there is apparently [support for defaultProps since Typescript 3.0](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html))
+  
+Things is stumbled upon:
 - [Enable Service Workers?](https://github.com/parcel-bundler/parcel/issues/331)
+  => currently not really possible since Parcel does not support PWA (serviceworker.js is not bundled as separate file)
+- Hot Module Reloading sometimes crashes, could be any of [those issues](https://github.com/parcel-bundler/parcel/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+HMR)
+- Parcel has a lot more open issues on Github than Webpack. The former is under active development though and pretty new (version 1 released in December 2017)
+
+Things i didn't check out yet:
+- image and css minification
+- testing of redux store logic
+- end-to-end testing

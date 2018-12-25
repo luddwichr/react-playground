@@ -7,13 +7,9 @@ import {CounterAction} from './reducer';
 import * as actions from './actions';
 
 export interface CounterProps {
-  count?: number;
+  count: number;
   onIncrement?: () => void;
   onDecrement?: () => void;
-}
-
-interface DefaultProps {
-  count: number;
 }
 
 export function mapStateToProps(state: RootState) {
@@ -29,22 +25,24 @@ export function mapDispatchToProps(dispatch: Dispatch<CounterAction>) {
   };
 }
 
-class ReduxCounter extends Component<CounterProps & DefaultProps> {
+export class ReduxCounterComponent extends Component<CounterProps> {
 
-  static defaultProps: DefaultProps = {
+  static defaultProps = {
     count: 0,
+    onIncrement: () => {},
+    onDecrement: () => {},
   };
 
   render() {
     return (
-      <div className='Counter'>
+      <div className='ReduxCounter'>
         <span id='count'>{this.props.count}</span>
-        <button id='increase' onClick={this.props.onIncrement}>+</button>
-        <button id='decrease' onClick={this.props.onDecrement}>-</button>
+        <button id='increment' onClick={this.props.onIncrement}>+</button>
+        <button id='decrement' onClick={this.props.onDecrement}>-</button>
       </div>
     );
   }
 
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ReduxCounter);
+export default connect(mapStateToProps, mapDispatchToProps)(ReduxCounterComponent);
