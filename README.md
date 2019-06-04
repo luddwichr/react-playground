@@ -27,6 +27,7 @@ See the following resources for more details:
 - [Barrel file pattern discussion](https://medium.com/@adrianfaciu/barrel-files-to-use-or-not-to-use-75521cd18e65)
 - [Defining defaultProps troubles in Typescript](https://medium.com/@martin_hotell/react-typescript-and-defaultprops-dilemma-ca7f81c661c7)
   (I could not yet figure out an optimal solution, although there is apparently [support for defaultProps since Typescript 3.0](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-0.html))
+- [Testing React and Redux](https://hacks.mozilla.org/2018/04/testing-strategies-for-react-and-redux/)
   
 Things is stumbled upon:
 - [Enable Service Workers?](https://github.com/parcel-bundler/parcel/issues/331)
