@@ -4,5 +4,5 @@ module.exports = {
     '\\.(css)$': '<rootDir>/node_modules/jest-css-modules',
   },
   testEnvironment: 'node',
-  setupTestFrameworkScriptFile: '<rootDir>/test-setup.js'
+  setupFilesAfterEnv: ['<rootDir>/test-setup.js']
 };

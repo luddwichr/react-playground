@@ -12,39 +12,39 @@
 		"build": "parcel build public/index.html --no-source-maps --experimental-scope-hoisting"
 	},
 	"engines": {
-		"node": ">= 10.*",
-		"yarn": ">= 1.12.*"
+		"node": ">= 12.*",
+		"yarn": ">= 1.16.*"
 	},
 	"dependencies": {
-		"react": "^16.7.0",
-		"react-dom": "^16.7.0",
-		"react-redux": "^6.0.0",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-redux": "^7.0.3",
 		"redux": "^4.0.1",
-		"redux-devtools-extension": "^2.13.7",
-		"redux-observable": "^1.0.0",
-		"rxjs": "^6.3.3",
+		"redux-devtools-extension": "^2.13.8",
+		"redux-observable": "^1.1.0",
+		"rxjs": "^6.5.2",
 		"tslib": "^1.9.3",
-		"typesafe-actions": "^2.0.4"
+		"typesafe-actions": "^4.4.0"
 	},
 	"devDependencies": {
-		"@types/enzyme": "^3.1.15",
-		"@types/jest": "^23.3.10",
-		"@types/node": "^10.12.18",
-		"@types/react": "^16.7.17",
-		"@types/react-dom": "^16.0.11",
-		"@types/react-redux": "^6.0.11",
-		"enzyme": "^3.8.0",
-		"enzyme-adapter-react-16": "^1.7.1",
-		"jest": "^23.6.0",
-		"jest-css-modules": "^1.1.0",
-		"parcel-bundler": "^1.11.0",
+		"@types/enzyme": "^3.9.3",
+		"@types/jest": "^24.0.13",
+		"@types/node": "^12.0.4",
+		"@types/react": "^16.8.19",
+		"@types/react-dom": "^16.8.4",
+		"@types/react-redux": "^7.0.9",
+		"enzyme": "^3.10.0",
+		"enzyme-adapter-react-16": "^1.14.0",
+		"jest": "^24.8.0",
+		"jest-css-modules": "^2.0.0",
+		"parcel-bundler": "^1.12.3",
 		"parcel-plugin-clean-dist": "^0.0.6",
-		"prettier": "^1.15.3",
-		"ts-jest": "^23.10.5",
-		"tslint": "^5.12.0",
+		"prettier": "^1.17.1",
+		"ts-jest": "^24.0.2",
+		"tslint": "^5.17.0",
 		"tslint-config-airbnb": "^5.11.1",
-		"tslint-config-prettier": "^1.17.0",
-		"tslint-react": "^3.6.0",
-		"typescript": "^3.2.2"
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-react": "^4.0.0",
+		"typescript": "^3.5.1"
 	}
 }
