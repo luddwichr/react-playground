@@ -25,7 +25,7 @@ export function mapDispatchToProps(dispatch: Dispatch<CounterAction>) {
   };
 }
 
-export class ReduxCounterComponent extends Component<CounterProps> {
+export class ReduxCounter extends Component<CounterProps> {
 
   static defaultProps = {
     count: 0,
@@ -45,4 +45,4 @@ export class ReduxCounterComponent extends Component<CounterProps> {
 
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ReduxCounterComponent);
+export default connect(mapStateToProps, mapDispatchToProps)(ReduxCounter);
